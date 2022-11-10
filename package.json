@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jose-valero.github.io/react-state-machine",
   "name": "react-state-machine",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,8 @@
     "xstate": "^4.34.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
